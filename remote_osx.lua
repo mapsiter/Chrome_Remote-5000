@@ -15,6 +15,16 @@ actions.launch = function()
 	os.open("/Applications/Google Chrome.app");
 end
 
+--@help Lower system volume
+actions.volume_down = function()
+	keyboard.press("volumedown");
+end
+
+--@help Raise system volume
+actions.volume_up = function()
+	keyboard.press("volumeup");
+end
+
 --@help Naviagte back
 actions.back = function()
 	actions.switch();
