@@ -116,6 +116,7 @@ end
 --@help Toggle playback state
 actions.play_pause = function()
 	keyboard.stroke("space");
+end
 
 --@help Scroll page down
 actions.scroll_down = function()
