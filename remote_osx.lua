@@ -25,6 +25,11 @@ actions.volume_up = function()
 	keyboard.press("volumeup");
 end
 
+--@help Fullscreen view
+actions.fullscreen = function()
+	keyboard.stroke("f");
+end
+
 --@help Naviagte back
 actions.back = function()
 	actions.switch();
