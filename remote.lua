@@ -90,6 +90,11 @@ actions.find = function()
 	device.keyboard();
 end
 
+--@help Fullscreen view
+actions.fullscreen = function()
+	keyboard.stroke("f");
+end
+
 --@help Zoom page in
 actions.zoom_in = function()
 	actions.switch();
@@ -107,6 +112,10 @@ actions.zoom_normal = function()
 	actions.switch();
 	keyboard.stroke("control", "0");
 end
+
+--@help Toggle playback state
+actions.play_pause = function()
+	keyboard.stroke("space");
 
 --@help Scroll page down
 actions.scroll_down = function()
