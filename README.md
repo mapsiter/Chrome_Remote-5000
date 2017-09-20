@@ -2,4 +2,4 @@
 Unified Remote's modified Chrome Remote with added media capabilities to handle Netflix, Youtube, etc.
 
 ## Screenshots
-<img src="ignore/screen.png" />
+<img src="screen.png" />
