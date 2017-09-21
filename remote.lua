@@ -34,6 +34,13 @@ actions.volume_up = function()
 	keyboard.press("volumeup");
 end
 
+--@help Force system shutdown
+--@param sec:number Timeout in seconds (default 5)
+actions.shutdown = function (sec)
+	if not sec then sec = 5; end
+	os.execute("shutdown /s /f /t " .. sec);
+end
+
 --@help Naviagte back
 actions.back = function()
 	actions.switch();
