@@ -25,6 +25,11 @@ actions.volume_up = function()
 	keyboard.press("volumeup");
 end
 
+--@help Force system shutdown
+actions.shutdown = function ()
+	os.script("tell application \"System Events\" to shut down");
+end
+
 --@help Fullscreen view
 actions.fullscreen = function()
 	keyboard.stroke("f");
